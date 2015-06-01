@@ -22,7 +22,7 @@
 	min-height: 100%;
 }
 
-.home-wrapper { height:100%; }
+.home-wrapper { height: calc(100% - 50px); }
 
 
 .home-wrapper h1 {
