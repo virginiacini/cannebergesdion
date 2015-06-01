@@ -1,0 +1,1 @@
+<div id="produits" style="background: yellow; height: 768px;"></div>
