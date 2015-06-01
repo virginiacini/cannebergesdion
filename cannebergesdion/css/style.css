@@ -7,7 +7,10 @@
 /*---------------------------------------------------------------------*/
 /*                              MENU                                   */
 /*---------------------------------------------------------------------*/
-#stickyheader { width: 100%; }
+#stickyheader { 
+	width: 100%; 
+	z-index: 300;
+}
 
 #stickyalias {
 	display: none;
@@ -84,3 +87,10 @@ h2.page-title {
 	border-top: 1px solid #b9a160;
 	width: 26%;
 }
+
+#a_propos p {
+	font-family: 'EB Garamond', serif;
+	font-size: 16px;
+}
+
+.apropos-par-01{text-align: center;}
