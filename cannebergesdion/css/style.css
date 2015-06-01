@@ -23,3 +23,22 @@
 }
 
 .home-wrapper { height:100%; }
+
+
+.home-wrapper h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 0px;
+	color: white;
+	display: table-cell;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+.txt-home{
+	display: table;
+	height: 70%;
+	overflow: hidden;
+	width: 100%;
+}
