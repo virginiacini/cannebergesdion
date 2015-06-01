@@ -1,6 +1,7 @@
 <!--<?php
 	//include('system/bootstrap.php');
 ?>-->
+<!DOCTYPE html>
 <html lang="fr">
 	<head>
 		
@@ -15,7 +16,7 @@
 	    <title>Canneberges Dion</title>
 
 	    <!-- Fonts -->
-	    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700 | EB+Garamond' rel='stylesheet' type='text/css'>
+	    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|EB+Garamond' rel='stylesheet' type='text/css'>
 	    
 	    <!-- Favicon -->
 	    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">

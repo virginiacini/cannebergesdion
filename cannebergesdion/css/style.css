@@ -93,4 +93,27 @@ h2.page-title {
 	font-size: 16px;
 }
 
-.apropos-par-01{text-align: center;}
+.apropos-par-01 {text-align: center;}
+
+.golden-bg {
+	background-color: #b9a160;
+	height: 40%;
+}
+
+.apropos-par-02 {
+	width: 95%;
+	margin: 10% 5%;
+}
+
+/* dropcaps */
+p.apropos-par-02:first-child:first-letter { 
+	float: left; 
+	color:  #b9a160; 
+	font-size: 75px; 
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px; 
+}
+
+.apropos-wrapper {}
