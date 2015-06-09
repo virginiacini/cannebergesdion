@@ -39,6 +39,7 @@
 	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 
+
 	</head>
 	
 	<body>
@@ -59,5 +60,5 @@
 
 	<!-- This script contains: Scroll to anchor effect, Sticky menu function -->
 	<script src="js/script.js"></script>
-	
+
 </html>
