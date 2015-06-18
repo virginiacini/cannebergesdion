@@ -30,12 +30,35 @@ $(function(){
 
 // Google map
 function initialize() {
-    var mapCanvas = document.getElementById('map-canvas');
-    var mapOptions = {
-      center: new google.maps.LatLng(44.5403, -78.5463),
-      zoom: 8,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    }
-    var map = new google.maps.Map(mapCanvas, mapOptions)
+  var myLatlng = new google.maps.LatLng(45.887563, -72.117883);
+  var mapOptions = {
+    zoom: 13,
+    center: myLatlng
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1>Canneberges Dion</h1>'+
+      '<div>'+
+      '<p>140 Rte 9 rang, Ste-Séraphine, QC J0A 1E0</p>' +
+      '</div>'+
+      '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+      content: contentString
+  });
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Uluru (Ayers Rock)'
+  });
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.open(map,marker);
+  });
 }
+
 google.maps.event.addDomListener(window, 'load', initialize);

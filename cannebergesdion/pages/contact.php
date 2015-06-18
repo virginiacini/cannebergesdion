@@ -8,6 +8,8 @@
 	</div><!-- end row -->
 
 	<!-- google map -->
-	<div id="map-canvas"></div>
+	<div class="row">
+		<div id="map-canvas"></div>
+	</div><!-- end row -->
 
 </div>
