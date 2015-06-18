@@ -6,4 +6,8 @@
 	  	<hr>	
 	  </div>
 	</div><!-- end row -->
+
+	<!-- google map -->
+	<div id="map-canvas"></div>
+
 </div>

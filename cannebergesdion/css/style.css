@@ -155,3 +155,9 @@ p.apropos-par-02:first-child:first-letter {
 	border-top: 1px solid #b9a160;
 	width: 43%;
 }
+
+#map-canvas {
+	width: 500px;
+	height: 400px;
+	background-color: #CCC;
+}
