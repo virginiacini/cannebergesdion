@@ -141,4 +141,7 @@ p.apropos-par-02:first-child:first-letter {
 /*                             NOS PRODUITS                            */
 /*---------------------------------------------------------------------*/
 
-.bg-produits
+#produits hr {
+	border-top: 1px solid #b9a160;
+	width: 36%;
+}
