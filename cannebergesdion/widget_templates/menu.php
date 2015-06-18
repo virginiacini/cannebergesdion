@@ -11,7 +11,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#accueil">Brand</a>
+						<a class="navbar-brand" href="#accueil">Canneberges Dion</a>
 					</div>
 
 					<!-- desktop menu-->
