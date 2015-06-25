@@ -28,19 +28,24 @@ $(function(){
     });
 });
 
-//error handling contact form
+//Function that shows an error message if the user has 
+//left an input field empty in the contact form
 document.contactform.onsubmit=function(){
   if(document.contactform.fullname.value ==''){
-    alert("Please enter your name");
-    document.contactform.fullname.focus();
+    var errName = document.getElementById("errName");
+    errName.style.display = "inline"; 
     return false;
   } else if(document.contactform.email.value ==''){
-    alert("Please enter your Email address");
-    document.contactform.email.focus();
+    var errEmail = document.getElementById("errEmail");
+    errEmail.style.display = "inline"; 
+    return false;
+  } else if(document.contactform.message.value ==''){
+    var errMsg = document.getElementById("errMsg");
+    errMsg.style.display = "inline"; 
     return false;
   }
   return true;
-}
+}                    
 
 // Google map
 function initialize() {

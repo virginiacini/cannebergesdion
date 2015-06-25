@@ -168,3 +168,12 @@ p.apropos-par-02:first-child:first-letter {
 	font-size: 18px;
 }
 
+#errName, #errEmail, #errMsg {
+	display: none;
+	color: #476f00;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+#contactform input, #contactform textarea {width: 100%;}
+

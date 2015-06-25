@@ -8,19 +8,26 @@
 	</div><!-- end row -->
 	
 	<div class="row">
-		<div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-5">
+		<div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-4">
 			<form method='post' action='contactform.php' name='contactform' id='contactform'>
 				<div class="form-group">
-					<input type='text' name='fullname'class="form-control" placeholder='Nom' />
+					<input type='text' name='fullname' placeholder='Nom' />
+					<span id="errName">Veuillez entrer votre nom.</span>
 				</div>
 				<div class="form-group">
-					<input type='text' name='email' class="form-control" placeholder='Courriel'/>
+					<input type='text' name='email' placeholder='Courriel'/>
+					<span id="errEmail">Veuillez entrer votre courriel.</span>
 				</div>
 				<div class="form-group">
-					<textarea name='message' rows="4" class="form-control" cols="" placeholder="Message"></textarea>
+					<textarea name='message' rows="4" placeholder="Message"></textarea>
+					<span id="errMsg">Veuillez entrer votre message.</span>
 				</div>
-				<div class="form-group">
-					<input type='submit' name='submit' class="btn btn-default" value='Submit Form' />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-10 col-md-offset-9 col-md-3">
+						<div class="form-group">
+							<input type='submit' name='submit' value='Envoyer' />
+						</div>
+					</div>
 				</div>
 			</form>
 		</div>
