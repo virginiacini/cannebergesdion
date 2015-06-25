@@ -28,6 +28,20 @@ $(function(){
     });
 });
 
+//error handling contact form
+document.contactform.onsubmit=function(){
+  if(document.contactform.fullname.value ==''){
+    alert("Please enter your name");
+    document.contactform.fullname.focus();
+    return false;
+  } else if(document.contactform.email.value ==''){
+    alert("Please enter your Email address");
+    document.contactform.email.focus();
+    return false;
+  }
+  return true;
+}
+
 // Google map
 function initialize() {
   var myLatlng = new google.maps.LatLng(45.887563, -72.117883);
