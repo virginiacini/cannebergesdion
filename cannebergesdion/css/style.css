@@ -161,3 +161,10 @@ p.apropos-par-02:first-child:first-letter {
 	height: 350px;
 	background-color: #CCC;
 }
+
+.address{
+	font-family: 'EB Garamond', serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
