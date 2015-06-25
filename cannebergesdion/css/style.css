@@ -72,7 +72,7 @@
 	text-align: center;
 }
 
-.txt-home{
+.txt-home {
 	display: table;
 	height: 70%;
 	overflow: hidden;
@@ -162,7 +162,7 @@ p.apropos-par-02:first-child:first-letter {
 	background-color: #CCC;
 }
 
-.address{
+.address {
 	font-family: 'EB Garamond', serif;
 	font-weight: 300;
 	font-size: 18px;
@@ -175,5 +175,9 @@ p.apropos-par-02:first-child:first-letter {
 	font-weight: 300;
 }
 
-#contactform input, #contactform textarea {width: 100%;}
+#contactform input, 
+#contactform textarea {
+	width: 100%;
+	border: 2px solid #B9A160;
+}
 
