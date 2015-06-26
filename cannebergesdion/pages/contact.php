@@ -6,26 +6,32 @@
 	  	<hr>	
 	  </div>
 	</div><!-- end row -->
-	
+
+	<div class="row">
+	  <div class="col-xs-12 col-md-12 nopadding">
+		<img src="img/canneberges-cuillere.jpg" class="img-responsive" alt="Responsive image">
+	  </div>
+	</div><!-- end row -->
+
 	<div class="row">
 		<div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-4">
 			<form method='post' action='contactform.php' name='contactform' id='contactform'>
 				<div class="form-group">
-					<input type='text' name='fullname' placeholder='Nom' />
+					<input type='text' name='fullname' placeholder='NOM' />
 					<span id="errName">Veuillez entrer votre nom.</span>
 				</div>
 				<div class="form-group">
-					<input type='text' name='email' placeholder='Courriel'/>
+					<input type='text' name='email' placeholder='COURRIEL'/>
 					<span id="errEmail">Veuillez entrer votre courriel.</span>
 				</div>
 				<div class="form-group">
-					<textarea name='message' rows="4" placeholder="Message"></textarea>
+					<textarea name='message' rows="4" placeholder="MESSAGE"></textarea>
 					<span id="errMsg">Veuillez entrer votre message.</span>
 				</div>
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-10 col-md-offset-9 col-md-3">
-						<div class="form-group">
-							<input type='submit' name='submit' value='Envoyer' />
+						<div class="form-group btn-send">
+							<input type='submit' name='submit' value='ENVOYER' />
 						</div>
 					</div>
 				</div>
