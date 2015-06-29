@@ -43,9 +43,16 @@ document.contactform.onsubmit=function(){
     var errMsg = document.getElementById("errMsg");
     errMsg.style.display = "inline"; 
     return false;
+  } else {
+    var success = document.getElementById("success");
+    var form = document.getElementById("contactform");
+    form.style.display = "none";  
+    success.style.display = "inline";
+    return true;
   }
-  return true;
-}                    
+
+  contactform
+}                 
 
 // Google map
 function initialize() {

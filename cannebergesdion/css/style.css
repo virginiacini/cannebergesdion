@@ -170,7 +170,7 @@ p.apropos-par-02:first-child:first-letter {
 	margin-top: 10%;
 }
 
-#errName, #errEmail, #errMsg {
+#errName, #errEmail, #errMsg, #success {
 	display: none;
 	color: #476f00;
 	font-family: 'Oswald', sans-serif;
@@ -189,11 +189,6 @@ p.apropos-par-02:first-child:first-letter {
 	width: 100%;
 	border: 2px solid #B9A160;
 	background: transparent;
-}
-
-#contactform input:focus, 
-#contactform textarea:focus {
-	border: ;
 }
 
 #contactform .btn-send {

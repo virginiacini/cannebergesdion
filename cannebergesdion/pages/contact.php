@@ -36,6 +36,7 @@
 					</div>
 				</div>
 			</form>
+			<span id="success">Votre message a été envoyé!</span>
 		</div>
 		<div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-4">
 			<div class="address">
@@ -48,13 +49,13 @@
 				<p>
 					819-336-5649
 				</p>
-			</div>
+			</div> <!-- end address -->
 		</div>
-	</div>
+	</div><!-- end row -->
 
 	<!-- google map -->
 	<div class="row">
 		<div id="map-canvas"></div>
 	</div><!-- end row -->
 
-</div>
+</div><!-- end container-fluid -->

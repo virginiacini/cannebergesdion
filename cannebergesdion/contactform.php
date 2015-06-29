@@ -23,6 +23,6 @@ Email:$email \n
 Message: $message" );
 
 header('Location: index.php#contact');
-
+exit;
 
 ?>
