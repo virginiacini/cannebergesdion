@@ -38,6 +38,7 @@
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100%;
+	min-height: 94vh;
 }
 
 
@@ -52,7 +53,7 @@
 		-o-background-size: cover;
 		background-size: cover; 
 		height: 100%;
-		display: block;
+		min-height:94vh;
 	}
 
 }
@@ -134,7 +135,7 @@ p.apropos-par-02:first-child:first-letter {
 	-o-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 100%;
+	/*min-height: 100vh;*/
 }
 
 /*---------------------------------------------------------------------*/
